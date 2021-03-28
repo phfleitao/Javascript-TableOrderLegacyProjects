@@ -1,0 +1,34 @@
+<html>
+<head>
+    <title>Teste JS</title>
+    <script type="text/javascript" src="produtos.js"></script>
+    <script type="text/javascript" src="main.js"></script>
+</head>
+<body onload="onStart()">
+    
+    <table id="tbl" border="1px" align="center">
+        <thead>
+            <th width="150px">
+                <a onmouseover="this.style.cursor='pointer';" onclick="orderByHeader(this,'CODIGO');">
+                    <label>Codigo<label>
+                    <img height="5px" src="img/arrow_up.png">
+                </a>
+            </th>
+            <th width="150px">
+                <a onmouseover="this.style.cursor='pointer';" onclick="orderByHeader(this,'PRODUTO');">
+                    <label>Produto<label>
+                    <img height="5px" src="">
+                </a>
+            </th>
+            <th width="150px">
+                <a onmouseover="this.style.cursor='pointer';" onclick="orderByHeader(this,'CATEGORIA');">
+                    <label>Categoria<label>
+                    <img height="5px" src="">
+                </a>
+            </th>
+        </thead>
+        <tbody></tbody>
+    </table>
+
+</body>
+</html>
